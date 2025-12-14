@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#A0522D"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#DAA520"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  
+  <!-- Cercle central -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#gold)" stroke-width="8"/>
+  
+  <!-- Symbole Yin-Yang stylisé -->
+  <circle cx="256" cy="256" r="120" fill="#FFFAF0"/>
+  <path d="M256 136 A120 120 0 0 1 256 376 A60 60 0 0 1 256 256 A60 60 0 0 0 256 136" fill="#2F4F4F"/>
+  <circle cx="256" cy="196" r="20" fill="#FFFAF0"/>
+  <circle cx="256" cy="316" r="20" fill="#2F4F4F"/>
+  
+  <!-- Hexagramme (3 traits en haut) -->
+  <g fill="url(#gold)">
+    <!-- Trait 6 (haut) - Yang -->
+    <rect x="156" y="60" width="200" height="12" rx="6"/>
+    <!-- Trait 5 - Yin -->
+    <rect x="156" y="85" width="85" height="12" rx="6"/>
+    <rect x="271" y="85" width="85" height="12" rx="6"/>
+    <!-- Trait 4 - Yang -->
+    <rect x="156" y="110" width="200" height="12" rx="6"/>
+  </g>
+  
+  <!-- Hexagramme (3 traits en bas) -->
+  <g fill="url(#gold)">
+    <!-- Trait 3 - Yin -->
+    <rect x="156" y="390" width="85" height="12" rx="6"/>
+    <rect x="271" y="390" width="85" height="12" rx="6"/>
+    <!-- Trait 2 - Yang -->
+    <rect x="156" y="415" width="200" height="12" rx="6"/>
+    <!-- Trait 1 (bas) - Yang -->
+    <rect x="156" y="440" width="200" height="12" rx="6"/>
+  </g>
+  
+  <!-- Caractère 易 stylisé -->
+  <text x="256" y="275" 
+        font-family="serif" 
+        font-size="80" 
+        font-weight="bold"
+        fill="#8B4513" 
+        text-anchor="middle" 
+        dominant-baseline="middle">易</text>
+</svg>
