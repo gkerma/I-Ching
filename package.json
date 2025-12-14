@@ -1,0 +1,35 @@
+{
+  "name": "yijing-oracle",
+  "version": "1.0.0",
+  "description": "Oracle Yi Jing avec grilles La Livrée d'Hermès",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build needed - static files'",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "run:android": "npx cap run android",
+    "run:ios": "npx cap run ios",
+    "icons": "npx capacitor-assets generate"
+  },
+  "keywords": [
+    "yijing",
+    "iching",
+    "oracle",
+    "divination",
+    "hexagram",
+    "pwa",
+    "capacitor"
+  ],
+  "author": "CyberMind.FR",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
+    "@capacitor/assets": "^3.0.0"
+  }
+}
